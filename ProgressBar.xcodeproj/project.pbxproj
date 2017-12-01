@@ -15,6 +15,7 @@
 		1F4BEBC21FD135FE0005AC24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BEBC11FD135FE0005AC24 /* main.m */; };
 		1F4BEBCA1FD136550005AC24 /* StraightProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BEBC91FD136550005AC24 /* StraightProgressView.m */; };
 		1F4BEBCD1FD136790005AC24 /* RoundProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4BEBCC1FD136790005AC24 /* RoundProgressView.m */; };
+		1F4BEBCF1FD13C8E0005AC24 /* ProgressBar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1F4BEBCE1FD13C8E0005AC24 /* ProgressBar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1F4BEBC91FD136550005AC24 /* StraightProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StraightProgressView.m; sourceTree = "<group>"; };
 		1F4BEBCB1FD136790005AC24 /* RoundProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundProgressView.h; sourceTree = "<group>"; };
 		1F4BEBCC1FD136790005AC24 /* RoundProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundProgressView.m; sourceTree = "<group>"; };
+		1F4BEBCE1FD13C8E0005AC24 /* ProgressBar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ProgressBar.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				1F4BEBC91FD136550005AC24 /* StraightProgressView.m */,
 				1F4BEBCB1FD136790005AC24 /* RoundProgressView.h */,
 				1F4BEBCC1FD136790005AC24 /* RoundProgressView.m */,
+				1F4BEBCE1FD13C8E0005AC24 /* ProgressBar.gif */,
 				1F4BEBB81FD135FE0005AC24 /* Main.storyboard */,
 				1F4BEBBB1FD135FE0005AC24 /* Assets.xcassets */,
 				1F4BEBBD1FD135FE0005AC24 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4BEBBF1FD135FE0005AC24 /* LaunchScreen.storyboard in Resources */,
+				1F4BEBCF1FD13C8E0005AC24 /* ProgressBar.gif in Resources */,
 				1F4BEBBC1FD135FE0005AC24 /* Assets.xcassets in Resources */,
 				1F4BEBBA1FD135FE0005AC24 /* Main.storyboard in Resources */,
 			);

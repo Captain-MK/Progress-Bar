@@ -109,6 +109,7 @@
         //添加动画
         [self.outCAShapeLayer addAnimation:self.caAnimation forKey:@"strokeEndAnimation"];
     }
+    
     /*
      -setNeedsLayout方法：标记为需要重新布局，异步调用layoutIfNeeded刷新布局，不立即刷新，但layoutSubviews一定会被调用
      -layoutIfNeeded方法：如果，有需要刷新的标记，立即调用layoutSubviews进行布局（如果没有标记，不会调用layoutSubviews）

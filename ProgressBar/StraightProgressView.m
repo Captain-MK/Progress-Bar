@@ -43,12 +43,19 @@
     return view;
 }
 
+/*
+ CAGradientLayer渐变色，目前只有kCAGradientLayerAxial一个选项，即呈线性变化
+ startPoint、endPoint：分别表示渐变层的起始位置和终止位置，这两个点被定义在一个单元坐标空间，[0,0]表示左上角位置，[1,1]表示右下角位置，默认值分别是[0.5,0] and [0.5,1]
+ colors：颜色数组，定义渐变层的各个颜色
+ locations： 可选的NSNumber数组，决定每个渐变颜色的终止位置，这些值必须是递增的，数组的长度和colors的长度最好一致
+ */
 - (void)gradientColorForView:(UIView *)view {
     CAGradientLayer *layer = [CAGradientLayer layer];
     self.gradientLayer = layer;
     layer.startPoint = CGPointMake(0, 0);
     layer.endPoint = CGPointMake(1, 0);
     layer.colors = [NSArray arrayWithObjects:(__bridge id)[UIColor colorWithRed:24/255.0 green:201/255.0 blue:255/255.0 alpha:1].CGColor,(__bridge id)[UIColor colorWithRed:0/255.0 green:147/255.0 blue:255/255.0 alpha:1].CGColor, nil];
+    layer.locations = @[@0,@1];
     [view.layer insertSublayer:layer atIndex:0];
 }
 
